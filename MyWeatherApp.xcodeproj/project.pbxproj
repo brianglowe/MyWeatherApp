@@ -14,6 +14,7 @@
 		D32DE8651C4D756B0014E96D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32DE8631C4D756B0014E96D /* LaunchScreen.storyboard */; };
 		D32DE86D1C4D76AB0014E96D /* WeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32DE86C1C4D76AB0014E96D /* WeatherInfo.swift */; };
 		D32DE86F1C4D7AE60014E96D /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32DE86E1C4D7AE60014E96D /* NetworkOperation.swift */; };
+		D32DE8711C4D82F00014E96D /* ForecastService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32DE8701C4D82F00014E96D /* ForecastService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D32DE8661C4D756B0014E96D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D32DE86C1C4D76AB0014E96D /* WeatherInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherInfo.swift; sourceTree = "<group>"; };
 		D32DE86E1C4D7AE60014E96D /* NetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkOperation.swift; sourceTree = "<group>"; };
+		D32DE8701C4D82F00014E96D /* ForecastService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				D32DE8661C4D756B0014E96D /* Info.plist */,
 				D32DE86C1C4D76AB0014E96D /* WeatherInfo.swift */,
 				D32DE86E1C4D7AE60014E96D /* NetworkOperation.swift */,
+				D32DE8701C4D82F00014E96D /* ForecastService.swift */,
 			);
 			path = MyWeatherApp;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				D32DE86F1C4D7AE60014E96D /* NetworkOperation.swift in Sources */,
 				D32DE85D1C4D756B0014E96D /* ViewController.swift in Sources */,
 				D32DE85B1C4D756B0014E96D /* AppDelegate.swift in Sources */,
+				D32DE8711C4D82F00014E96D /* ForecastService.swift in Sources */,
 				D32DE86D1C4D76AB0014E96D /* WeatherInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
