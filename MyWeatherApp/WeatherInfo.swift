@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+struct WeatherInfo {
+    
+    let temperature: Int?
+    
+    init(weatherDictionary: [String: AnyObject]) {
+        temperature = weatherDictionary["temperature"] as? Int
+    }
+}
