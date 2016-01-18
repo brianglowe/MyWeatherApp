@@ -13,6 +13,7 @@
 		D32DE8621C4D756B0014E96D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32DE8611C4D756B0014E96D /* Assets.xcassets */; };
 		D32DE8651C4D756B0014E96D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32DE8631C4D756B0014E96D /* LaunchScreen.storyboard */; };
 		D32DE86D1C4D76AB0014E96D /* WeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32DE86C1C4D76AB0014E96D /* WeatherInfo.swift */; };
+		D32DE86F1C4D7AE60014E96D /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32DE86E1C4D7AE60014E96D /* NetworkOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D32DE8641C4D756B0014E96D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D32DE8661C4D756B0014E96D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D32DE86C1C4D76AB0014E96D /* WeatherInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherInfo.swift; sourceTree = "<group>"; };
+		D32DE86E1C4D7AE60014E96D /* NetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				D32DE8631C4D756B0014E96D /* LaunchScreen.storyboard */,
 				D32DE8661C4D756B0014E96D /* Info.plist */,
 				D32DE86C1C4D76AB0014E96D /* WeatherInfo.swift */,
+				D32DE86E1C4D7AE60014E96D /* NetworkOperation.swift */,
 			);
 			path = MyWeatherApp;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D32DE86F1C4D7AE60014E96D /* NetworkOperation.swift in Sources */,
 				D32DE85D1C4D756B0014E96D /* ViewController.swift in Sources */,
 				D32DE85B1C4D756B0014E96D /* AppDelegate.swift in Sources */,
 				D32DE86D1C4D76AB0014E96D /* WeatherInfo.swift in Sources */,
