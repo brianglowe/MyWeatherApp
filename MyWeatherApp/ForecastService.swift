@@ -25,7 +25,7 @@ class ForecastService {
             let networkOperation = NetworkOperation(url: forecastURL)
             networkOperation.getJSONFromURL {
                 (let jsonDictionary) in
-                let currentWeather = self.currentWeatherFromJSON(JSONDictionary)
+                let currentWeather = self.currentWeatherFromJSON(jsonDictionary)
                 completion(currentWeather)
             }
         } else {
