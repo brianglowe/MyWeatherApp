@@ -17,20 +17,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Detroit, MI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h5m-ra-W1L">
-                                <rect key="frame" x="249" y="198" width="91" height="22"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Detroit, MI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h5m-ra-W1L">
+                                <rect key="frame" x="255" y="203.5" width="90.5" height="21.5"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                 <color key="textColor" red="0.86536287010000001" green="0.34914679279999999" blue="0.1577919408" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="88º" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jir-kV-8JQ">
-                                <rect key="frame" x="262" y="271" width="77" height="58"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="88º" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jir-kV-8JQ">
+                                <rect key="frame" x="263" y="276" width="75.5" height="48"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="48"/>
                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Jir-kV-8JQ" firstAttribute="top" secondItem="h5m-ra-W1L" secondAttribute="bottom" constant="51" id="IC7-XQ-lGy"/>
+                            <constraint firstItem="h5m-ra-W1L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NxI-Cf-Umi"/>
+                            <constraint firstItem="Jir-kV-8JQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cAk-yY-8tY"/>
+                            <constraint firstItem="Jir-kV-8JQ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rWY-jp-MMq"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="temperatureLabel" destination="Jir-kV-8JQ" id="lAA-AE-rNz"/>
