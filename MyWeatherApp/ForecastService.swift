@@ -40,13 +40,5 @@ class ForecastService {
             print("'currently' key not found")
             return nil
         }
-        
     }
-    
-    
-    
 }
-
-
-
-

@@ -1,6 +1,6 @@
 Objectives for MyWeatherApp: 
 1. Follow along screencast to create simple temperature app
-	— <h1>Finished</h1>
+	—Finished
 2. Put api keys in appropriate location
 2. Use Extendable tableviews to display different weather related content
 ie. Different sections will feature more detailed forecast information. 
@@ -9,4 +9,37 @@ ie. Different sections will feature more detailed forecast information.
 EC: 
 1. trailing closure syntax
 -- suggested Treehouse video
+
+Track: 
+Notes- this can be a good exercise to learn how to deal with time and dates
+by adding different forecast options to the app. 
+I can also learn how to use alerts, push notifications, and tableviews.
+
+Rough Schedule: 
+	1. Practice with API:
+		i. Pull a few more parameters from the API, like the precip
+		percentage & low temperature.
+		ii. After confident pulling simple data, time to start pulling 
+		more abstract data, like the forecast were I will need to adjust
+		the timezone.
+		iii. At this point, I will have a solid amount of data to work
+		with and can begin to work with tableviews. The Tabviews will be 
+		extendable and feature various data from a single location.
+		iv. After I am confident with tableviews, I can move to adding
+		new locations to the app.
+		v. after adding multiple locations, then I can move
+		to creating push notifications (this should be last because now
+		the app at least provides some value.
+		vi.  Do it all over again from scratch, without any help from 
+		the video.
+
+Learning Outcomes (this will become a sample project that is a portfolio piece &
+allows me to refer back):
+A. API calls and parsing JSON Data
+B. Working with dates and time
+C. Tableviews and Extendable table views
+D. Push Notifications
+
+
+
 
