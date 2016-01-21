@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -17,28 +17,45 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Detroit, MI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h5m-ra-W1L">
-                                <rect key="frame" x="255" y="203.5" width="90.5" height="21.5"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
-                                <color key="textColor" red="0.86536287010000001" green="0.34914679279999999" blue="0.1577919408" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="88º" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jir-kV-8JQ">
                                 <rect key="frame" x="263" y="276" width="75.5" height="48"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="48"/>
                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is it like outside?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8CY-xo-baE">
+                                <rect key="frame" x="230.5" y="334" width="139.5" height="16.5"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sunshine" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MgC-jE-K0f">
+                                <rect key="frame" x="265.5" y="360.5" width="70.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Detroit, MI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h5m-ra-W1L">
+                                <rect key="frame" x="255" y="234.5" width="90.5" height="21.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="0.047666807432432436" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Jir-kV-8JQ" firstAttribute="top" secondItem="h5m-ra-W1L" secondAttribute="bottom" constant="51" id="IC7-XQ-lGy"/>
+                            <constraint firstItem="8CY-xo-baE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HCm-2z-fmG"/>
+                            <constraint firstItem="Jir-kV-8JQ" firstAttribute="top" secondItem="h5m-ra-W1L" secondAttribute="bottom" constant="20" id="IC7-XQ-lGy"/>
                             <constraint firstItem="h5m-ra-W1L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NxI-Cf-Umi"/>
+                            <constraint firstItem="MgC-jE-K0f" firstAttribute="top" secondItem="8CY-xo-baE" secondAttribute="bottom" constant="10" id="bCq-Re-MXg"/>
                             <constraint firstItem="Jir-kV-8JQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cAk-yY-8tY"/>
+                            <constraint firstItem="MgC-jE-K0f" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="h9W-AT-yyH"/>
                             <constraint firstItem="Jir-kV-8JQ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rWY-jp-MMq"/>
+                            <constraint firstItem="8CY-xo-baE" firstAttribute="top" secondItem="Jir-kV-8JQ" secondAttribute="bottom" constant="10" id="tob-3v-PRE"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="summaryLabel" destination="MgC-jE-K0f" id="CpN-rJ-nm1"/>
                         <outlet property="temperatureLabel" destination="Jir-kV-8JQ" id="lAA-AE-rNz"/>
                     </connections>
                 </viewController>

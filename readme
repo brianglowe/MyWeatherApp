@@ -19,7 +19,8 @@ Rough Schedule:
 	1. Practice with API:
 		i. Pull a few more parameters from the API, like the precip
 		percentage & low temperature.
-		ii. After confident pulling simple data, time to start pulling 
+		ii. Move API keys to plist
+		iIi. After confident pulling simple data, time to start pulling 
 		more abstract data, like the forecast were I will need to adjust
 		the timezone.
 		iii. At this point, I will have a solid amount of data to work
