@@ -28,6 +28,9 @@ class ViewController: UIViewController {
                     if let temperature = currentWeather.temperature {
                         self.temperatureLabel?.text = "\(temperature)º"
                     }
+                    if let summary = currentWeather.summary {
+                        self.summaryLabel?.text = "\(summary)"
+                    }
                 }
             }
         }
