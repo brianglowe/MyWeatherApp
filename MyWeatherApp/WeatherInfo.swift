@@ -11,10 +11,10 @@ import Foundation
 struct WeatherInfo {
     
     let temperature: Int?
-  //  let summary: String?
+    let summary: String?
     
     init(weatherDictionary: [String: AnyObject]) {
         temperature = weatherDictionary["temperature"] as? Int
-       // summary = weatherDictionary["summary"] as? String
+        summary = weatherDictionary["summary"] as? String
     }
 }

@@ -15,7 +15,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var summaryLabel: UILabel!
     
     private let forecastAPIKey = valueForAPIKey(keyname:  "API_CLIENT_ID")
-//    private let forecastAPIKey = "16be9632358a25f6b91cfbba418cf626"
     let coordinates: (lat: Double, long: Double) = (42.3314, -83.0458)
     
     override func viewDidLoad() {
