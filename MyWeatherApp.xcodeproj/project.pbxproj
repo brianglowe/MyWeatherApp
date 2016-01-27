@@ -15,6 +15,8 @@
 		D32DE86D1C4D76AB0014E96D /* WeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32DE86C1C4D76AB0014E96D /* WeatherInfo.swift */; };
 		D32DE86F1C4D7AE60014E96D /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32DE86E1C4D7AE60014E96D /* NetworkOperation.swift */; };
 		D32DE8711C4D82F00014E96D /* ForecastService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32DE8701C4D82F00014E96D /* ForecastService.swift */; };
+		D3C614D01C5845D5001C02D0 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C614CF1C5845D5001C02D0 /* APIKeys.swift */; };
+		D3C614D21C5847D0001C02D0 /* APIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3C614D11C5847D0001C02D0 /* APIKeys.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		D32DE86C1C4D76AB0014E96D /* WeatherInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherInfo.swift; sourceTree = "<group>"; };
 		D32DE86E1C4D7AE60014E96D /* NetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkOperation.swift; sourceTree = "<group>"; };
 		D32DE8701C4D82F00014E96D /* ForecastService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastService.swift; sourceTree = "<group>"; };
+		D3C614CF1C5845D5001C02D0 /* APIKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		D3C614D11C5847D0001C02D0 /* APIKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = APIKeys.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,8 @@
 		D32DE84E1C4D756B0014E96D = {
 			isa = PBXGroup;
 			children = (
+				D3C614D11C5847D0001C02D0 /* APIKeys.plist */,
+				D3C614CF1C5845D5001C02D0 /* APIKeys.swift */,
 				D32DE8591C4D756B0014E96D /* MyWeatherApp */,
 				D32DE8581C4D756B0014E96D /* Products */,
 			);
@@ -132,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D32DE8651C4D756B0014E96D /* LaunchScreen.storyboard in Resources */,
+				D3C614D21C5847D0001C02D0 /* APIKeys.plist in Resources */,
 				D32DE8621C4D756B0014E96D /* Assets.xcassets in Resources */,
 				D32DE8601C4D756B0014E96D /* Main.storyboard in Resources */,
 			);
@@ -144,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3C614D01C5845D5001C02D0 /* APIKeys.swift in Sources */,
 				D32DE86F1C4D7AE60014E96D /* NetworkOperation.swift in Sources */,
 				D32DE85D1C4D756B0014E96D /* ViewController.swift in Sources */,
 				D32DE85B1C4D756B0014E96D /* AppDelegate.swift in Sources */,
@@ -298,6 +306,7 @@
 				D32DE86B1C4D756B0014E96D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
